@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head lang = "en">
+<meta charset = "utf-8">
+    <title> Quiz </title>
+    <link rel = "stylesheet" href = "/css/main.css">
+    <link rel = "stylesheet" href = "/css/question.css">  
+</head>
+ 
+   
+    
+<body>
+    
+    <div class = "wrapper" id = "results"> 
+        <div id = "quiz">
+            <h1 id = "head"> Question </h1>
+    <h3 id = 'details'></h3>        
+        <div id = "word"></div>
+        <div id = "hint"></div>
+        <div id = "options">OPTIONS:
+            
+            <div class = "option"><button type = "button" class = "btn" onclick = "checkAnswer()" id = "option1"></button></div>
+            
+            <div class = "option"><button type = "button" class = "btn" onclick = "checkAnswer()" id = "option2"></button></div>
+            
+            <div class = "option"><button type = "button" class = "btn" onclick = "checkAnswer()" id = "option3"></button></div>
+            
+            <div class = "option"><button type = "button" class = "btn" onclick = "checkAnswer()" id = "option4"></button></div>
+        </div>
+        </div> 
+        <a id = "ready" onclick = "printQuestion()"  ><button id = "ready" class = "btn" type = "button" onclick = "startButton()"> START </button></a>
+    </div>
+    
+    <a id = "restart" href = "index.html"><button id = "restart" type = "button" class = "btn" class = "restart">RESTART GAME</button></a>
+    
+ 
+    <script type = "text/javascript" src = "/javascript/main.js"></script>
+</body>
+
+
+</html>

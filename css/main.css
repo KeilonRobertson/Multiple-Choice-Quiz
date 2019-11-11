@@ -1,0 +1,31 @@
+*{
+    background-color:#FEF5EF ;
+    text-align: center;
+}
+
+.wrapper{
+    color:#9D5C63;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+textarea {
+    width: 50px;
+    height: 30px;
+}
+
+.btn{
+    top: 30%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#9D5C63;
+    border: 2px solid;
+    padding: 3px 20px;
+}
+
+.btn:hover{
+    background-color: #D6E3F8;
+    cursor: pointer;
+}
